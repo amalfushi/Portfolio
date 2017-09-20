@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.infoBars{
+    height: 30px;
+    width: 1000px;
+    background-color: #FCFCFC;
+    padding: 10px 15px 20px 15px;
+}
+
+.containerBars{
+    height: 10px;
+    background: -webkit-linear-gradient(to middle, #E4D9E3, #8C8B97, #FCFCFC); /* Safari 5.1- 6.0 */
+    background: -o-linear-gradient(to bottom, #E4D9E3, #8C8B97, #FCFCFC); /* Opera 11.6-12.0 */
+    background: -moz-linear-gradient(to bottom, #E4D9E3, #8C8B97, #FCFCFC); /* Firefox 3.6-15 */
+    background: linear-gradient(to bottom, #E4D9E3, #8C8B97, #FCFCFC); /* Standard syntax */
+    padding: 5px 15px 25px 15px;
+}
+
+.container{
+    display: block;
+}
+
+#about{
+    border-color: yellow;
+    background-color: #E4D9E3;
+    vertical-align: top;
+    display: inline-block;
+    height: 280px;
+    width: 500px;
+}
+
+#firstRow, #secondRow{
+    margin-bottom: 20px;
+}
+
+#fiveEleven, #La_Mode, #Family_Contacts{
+    background-color: #E4D9E3;
+    vertical-align: top;
+    display: inline-block;
+    width: 300px;
+    height: 425px;
+}
+
+#wraper{
+    width: 968px;
+    padding: 80px 20px;
+    background: -webkit-radial-gradient(#6F5964, #1E0D12); /* Safari 5.1- 6.0 */
+    background: -o-radial-gradient(#6f5964, #1E0D12); /* Opera 11.6-12.0 */
+    background: -moz-radial-gradient(#6f5964, #1E0D12); /* Firefox 3.6-15 */
+    background: radial-gradient(#6f5964, #1E0D12); /* Standard syntax */
+}
+
+#header{
+    position: fixed;
+    top: 0;
+}
+
+#footer{
+    position: fixed; 
+    bottom: 0;
+}
+
+#profilePic{
+    border: 5px solid #C0C0C0;
+    width: 410px;
+    height: 270px;
+    margin-right: 20px;
+}
+
+p{
+    margin: 15px;
+    text-justify: inter-word;
+}
+
+h1, h2{
+    display: inline;
+}
+
+.containerBars > h2, h3{
+    color: white;
+}
+
+.infoBars > h2{
+    position: absolute;
+    right: 40px;
+}
+
+.siteimages{
+    width: 300px;
+    height: 180px;
+}
+
+.technology{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+.technologies_container{
+    height: 150px;
+    padding: 15px;
+    background-color: #E4D9E3;
+}
+
+.works{
+    width: 300px;
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+button{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #407D61;
+    color: white;
+    padding: 5px;
+    display: block;
+    margin: 5px auto;
+}
+
+#footer > p{
+    width: 300px;
+    margin: auto;
+}
+#footer > p:nth-child(2){
+    width: 400px;
+    margin: auto;
+}
+
+#footer img{
+    width:15px;
+    height: 15px;
+    margin: 2px;
+}
+
+
